@@ -1,0 +1,5 @@
+{
+  "globalDependencies": {
+    "packery": "registry:dt/packery#1.4.1+20160316155526"
+  }
+}

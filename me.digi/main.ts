@@ -1,4 +1,4 @@
-declare var Packery:any;
+import Packery = require("packery");
 
  /**
  * main
@@ -14,7 +14,7 @@ class MainInit
 
     init()
     {
-        alert("init called");
+        //alert("init called");
         this._grid = document.querySelector('.grid');
         this._grid.addEventListener('click', this.clickHandler);
         this._packery = new Packery(this._grid, 
@@ -25,12 +25,12 @@ class MainInit
         });
     }
 
-    clickHandler()
+    clickHandler(event:any)
     {
-        alert("click called");
+        //alert("click called");
         // remove clicked element
-        this._packery.remove( event.target );
+        this._packery.remove(event.target);
         // shiftLayout remaining item elements
-        this._packery.shiftLayout();
+       // this._packery.shiftLayout();
     }
 }

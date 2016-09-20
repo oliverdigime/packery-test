@@ -2,6 +2,8 @@
    "compileOnSave": true,
    "compilerOptions": {
        "noImplicitAny" : true,
-       "outDir": "release"
+       "outDir": "release",
+	   "removeComments": true,
+	   "module": "commonjs"
    }
 }
