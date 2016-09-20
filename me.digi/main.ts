@@ -3,7 +3,7 @@ declare var Packery:any;
  /**
  * main
  */
-class main 
+class MainInit 
 {
     private _packery:Packery;
     private _grid:any;
