@@ -2,8 +2,8 @@
    "compileOnSave": true,
    "compilerOptions": {
        "noImplicitAny" : true,
-       "outDir": "release",
+       "outDir": "release/js",
 	   "removeComments": true,
-	   "module": "commonjs"
+       "module": "es2015"
    }
 }

@@ -3,24 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Packery test!</title> 
-    <script src="main.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-    <style>
-        .grid-item 
-        { 
-            width: 125px;
-            background-color: red; 
-            height: 125px;
-        }
-        
-        .grid-item--width2 
-        { 
-            width: 125px;
-        }
-    </style>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/packery@2.1/dist/packery.pkgd.js"></script>
+    <script src="https://npmcdn.com/draggabilly@2.1.1/dist/draggabilly.pkgd.js"></script>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/style.css"></link>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function()
+        {
             var main = new MainInit();
             main.init();
         })
@@ -29,9 +20,9 @@
 
 <body>
     <div class="grid">
-        <div class="grid-item">...</div>
-        <div class="grid-item grid-item--width2">...</div>
-        <div class="grid-item">...</div>
+        <div class="grid-item">[box A]</div>
+        <div class="grid-item">[box B]</div>
+        <div class="grid-item">[box C]</div>
     </div>
 </body>
 </html>
